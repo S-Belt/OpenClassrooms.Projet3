@@ -1,6 +1,833 @@
+/* ========== BODY ========== */
 
-
-@media(max-width: 768px)
+body
 {
-	
+ font-family: 'Roboto', Arial, sans-serif;
+ text-decoration: none;	
+ margin: 0;
+}
+
+h1
+{
+ font-family: 'Shrikhand', Arial, sans-serif;
+ color: black;
+}
+
+h1 :visited
+{
+	text-decoration: none;
+	color: black;
+}
+
+h4
+{
+	color: black;
+}
+
+a
+{
+ text-decoration: none;
+}
+
+a :visited
+{
+ text-decoration: none;
+ color: black;
+}
+
+.button
+{
+ text-decoration: none;
+ color: white;	
+}
+
+.button :visited
+{
+ text-decoration: none;
+ color: white;
+}
+
+/* ========== IMAGES ========== */
+
+#img1
+{
+  background-image: url('../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg');
+}
+#img2
+{
+  background-image: url('../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg');
+}
+#img3
+{
+  background-image: url('../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg');
+}
+#img4
+{
+  background-image: url('../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg');
+}
+
+
+/* ========== HEADER ========== */
+
+
+
+
+#index a
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 1rem;
+}
+
+#index i
+{
+	padding-right: -3rem;
+	font-size: 1.2rem;
+	color: black;
+}
+
+#index i:visited
+{
+	color: black;
+}
+
+header h1
+{
+	display: flex;
+	width: 100%;
+	height: 4rem;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.8rem;
+	font-weight: normal;
+	margin: 0;
+	color: black;
+}
+
+#header2
+{
+ box-shadow: 1px 1px 5px grey;
+}
+
+#recherche
+{
+ display: flex;
+ width: 100%;
+ height: 3rem;
+ background-color: #f0f0f0;
+ justify-content: center;
+ align-items: center;
+ margin-top: 0.3rem;
+}
+
+#search1
+{
+ display: flex;
+}
+
+#ville
+{
+	width: 10rem;
+ display: flex;
+ background-color: #f0f0f0;
+ border: none;
+ font-size: 1rem;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+}
+
+#slogan
+{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1.2rem;
+	text-align: center;
+}
+
+#slogan h2
+{
+
+	width: 70%;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	align-items: center;
+	margin: auto;
+}
+
+#slogan p
+{
+	font-size: 1.1rem;
+	font-weight: normal;
+}
+
+#explorer
+{
+	display: flex;
+	justify-content: center;
+}
+
+.button
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*	background-color: #D96DDA;*/
+	width: 14rem;
+	height: 3rem;
+	font-size: 1rem;
+	font-weight: bold;
+	border: none;
+	border-radius: 5rem;
+	box-shadow: 1px 1px 10px #f0f0f0;
+	background-image: linear-gradient(#E671DA,#9D59DC);
+	color: white;
+	transition: all 2s;
+}
+ span.button:hover
+ {
+	opacity: 0.7;
+	transition: all 2s;
+}
+
+#fonction
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin-bottom: 11rem;
+	justify-content: space-between;
+	margin-top: 4rem;
+	font-size: 1.3rem;
+}
+
+#fonction h3
+{
+	margin-left: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+#fonction .step
+{
+	display: flex;
+	width: 85%;
+	align-items: center;
+	height: 4rem;
+	margin: auto;
+	margin-bottom: 1.5rem;
+	border-radius: 1.2rem;
+	box-shadow: 2px 2px 15px #cfcfcf;
+	font-size: 1rem;
+	font-weight: bold;
+	background-color: #F6F6F6;
+	transition: all 1s;
+}
+#fonction .step:hover
+{
+	background-color: #F5EDFF;
+	transition: all 0.5s;
+}
+
+.step p
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.step i
+{
+	margin: 1.5rem;
+	font-size: 1.2rem;
+	color: grey;
+	transition: all 1s;
+}
+.step i:hover
+{
+ color: #9356DC;
+ transition: all 0.5s;
+}
+
+.fondstep
+{
+	background-color: #9356DC;
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 50%;
+	margin-left: -0.7rem;
+	background-position: 50%;
+	color: white;
+}
+
+
+/* ========== SECTION 1 ========== */
+
+
+section h3
+{
+	margin-left: 1.5rem;
+	font-size: 1.5rem;
+}
+
+section h4
+{
+ font-size: 1.2rem;
+ margin: 0;
+}
+section p
+{
+	margin: 0;
+}
+
+.resultat
+{
+ width: 90%;
+ margin: auto;
+ border-radius: 1rem 1rem 1rem 1rem;
+ box-shadow: 2px 2px 15px #cfcfcf;
+ margin-top: 1rem;
+}
+
+.photo1
+{
+  background-size: cover;
+  background-position: 50% 60%;
+  height: 11rem;
+  border-radius: 1rem 1rem 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nouveau
+{
+ display: flex;
+ width: 5rem;
+ height: 2rem;
+ background-color: #99E2D0;
+ align-items: center;
+ justify-content: center;
+ font-size: 0.9rem;
+ font-weight: bold;
+ color: #008766;
+ margin: 0.9rem;
+}
+
+.nom1
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	height: 4.5rem;
+}
+
+.nom2
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.nom2 p
+{
+	color: black;
+}
+
+.like
+{
+	font-size: 1.5rem;
+	color: black;
+}
+
+
+
+/* ========== SECTION 2 ========== */
+
+.photo2
+{
+  background-size: cover;
+  background-position: 50%;
+  height: 17rem;
+  width: 100%;
+}
+
+section
+{
+	width: 100%;
+	margin-top: -5rem;
+	border-radius: 2rem 2rem 0 0;
+	background-color: white;
+}
+
+#resto
+{
+	margin: 2rem;
+	display: flex;
+	align-items: center; 
+	justify-content: space-between;
+}
+
+#resto h3
+{
+ font-family: 'Shrikhand', Arial, sans-serif;
+ color: black;
+ font-size: 1.7rem;
+ margin-left: 0;
+ margin-top: 2rem;
+ font-weight: normal;
+}
+
+.menu h3
+{
+ margin-top: 2rem;
+ width: 2rem;
+ border-bottom: 2px solid #99E2D0;
+ padding-bottom: 3px;
+ margin-left: 6%;
+ font-size: 1rem;
+ font-weight: normal;
+}
+
+#resto i
+{
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+.box
+{
+	display: flex;
+	width: 88%;
+	height: 4rem;
+	border-radius: 1rem 1rem 1rem 1rem;
+	box-shadow: 2px 2px 15px #cfcfcf;
+	margin: auto;
+	margin-top: 1rem;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 1rem;
+}
+
+.prix
+{
+	align-self: flex-end;
+	margin-bottom: 0.5rem;
+	margin-right: 1rem;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+
+.box h4
+{
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.box p
+{
+	font-size: 0.9rem;
+	margin-top: 0.2rem;
+	font-weight: normal;
+}
+
+#commander
+{
+	display: flex;
+	width: 100%;
+	height: 6rem;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+#commander .button
+{
+ background-image: linear-gradient(#E671DA,#9D59DC);
+ color: white;
+ width: 12rem;
+ height: 3rem;
+ border-radius: 4rem;
+ box-shadow: 0 0 10px #f0f0f0;
+ border: none;
+ font-size: 1rem;
+ transition: all 1s;
+}
+
+span.button:hover
+{
+ opacity: 0.7;
+ transition: all 0.5s;
+}
+
+#commander a
+{
+ color: white;
+}
+
+
+/* ========== FOOTER ========== */
+
+footer
+{
+ display: flex;
+ flex-direction: column;
+ background-color: black;
+ color: white;
+ padding-left: 2rem;
+ margin-top: 4rem;
+}
+
+footer h5
+{
+ font-family: 'Shrikhand', Arial, sans-serif;
+ font-size: 1rem;
+ font-weight: normal;
+ margin-bottom: 1rem;
+ margin-top: 1rem;
+}
+footer a
+{
+	text-decoration: none;
+	color: white;
+}
+
+ul
+{
+ list-style-type: none;
+ padding-left: 0;
+ margin-top: 0; 
+ font-size: 0.95rem;
+ font-weight: bold;
+ margin-bottom: 2rem;
+}
+
+li
+{
+ margin-bottom: 0.3rem;	
+}
+
+li i
+{
+	padding-right: 0.5rem;
+	font-size: 0.9rem;
+}
+
+
+
+/* ========== RESPONSIVE ========== */
+
+
+@media(min-width: 769px)
+{
+
+
+/* ===== R HEADER ===== */
+
+
+header
+{
+	width: 80%;
+	margin: auto;
+}
+
+#slogan p
+{
+	font-size: 1.2rem;
+	margin-bottom: 4rem;
+}
+
+#slogan1
+{
+	width: 80%;
+}
+
+#index a
+{
+	padding: 0;
+}
+
+#slogan h2
+{
+	width: 80%;
+	font-size: 2rem;
+	font-family: 'Shrikhand', Arial, sans-serif;
+	font-weight: normal;
+}
+
+#index i
+{
+	display: none;
+}
+
+.button
+{
+ width: 20rem;
+ height: 4rem;
+ font-size: 1.2rem;
+}
+
+#fonction
+{
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 2rem;
+}
+
+#fonction .step
+{
+	display: flex;
+	flex-direction: initial;
+	width: 27%;
+	height: 5rem;
+}
+
+#fonction h3
+{
+	margin-left: 2%;
+	margin-right: 2%;
+	font-size: 2rem;
+	border-bottom: 1px solid #9356DC;
+}
+
+.fondstep
+{
+	background-color: #9356DC;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	margin-left: -1rem;
+	background-position: 50%;
+	color: white;
+}
+
+#step2
+{
+	display: flex;
+	flex-direction: initial;
+	margin-top: 4rem;
+	justify-content: space-between;
+}
+
+#fonction .step:hover
+{
+/*	border: 1px solid #9356DC;;*/
+	background-color: #F5EDFF;
+	transition: all 0.5s;
+}
+
+
+
+/* ===== R SECTION ===== */
+
+header h1
+{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 4rem;
+	height: 7rem;
+}
+
+#recherche
+{
+	width: 30%;
+	align-items: center;
+	color: #9356DC;
+	border: 1px solid #9356DC;
+
+}
+
+#header1
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+#slogan
+{
+	display: flex;
+	width: 100%;
+	border-top: 1px solid #9356DC;
+/*	flex-direction: initial;*/
+}
+
+#slogan1
+{
+	margin-top: 3rem;
+}
+
+section
+{
+	display: flex;
+	width: 80%;
+	margin: auto;
+	flex-wrap: wrap;
+	justify-content: space-between;
+/*	margin-top: 3rem;*/
+}
+
+section h3
+{
+	margin-left: 2%;
+	margin-right: 2%;
+	font-size: 2rem;
+	border-bottom: 1px solid #9356DC;
+}
+
+#resto
+{
+	width: 100%;
+	margin: 0;
+}
+
+#resto1
+{
+	width: 100%;
+/*	border-bottom: 1px solid #9356DC;*/
+}
+
+#resto2
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.resultat
+{
+	width: 48%;
+	margin: auto;
+	margin-top: 2rem;
+	justify-content: space-around;
+}
+
+.photo1
+{
+	height: 22rem;
+}
+
+.photo2
+{
+	width: 100%;
+	margin: auto;
+	height: 22rem;
+	border: 1px solid #9356DC;
+}
+
+.nouveau
+{
+	width: 8rem;
+}
+
+#ville
+{
+ color: #9356DC;
+}
+
+.box
+{
+	height: 6rem;
+}
+
+.menu h3
+{
+	width: 88%;
+}
+
+#entrees
+{
+	width: 32%;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+}
+
+#plats
+{
+	width: 32%;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+}
+
+#desserts
+{
+	width: 32%;
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+}
+
+#commander
+{
+	margin: 2%;
+	margin-top: 3rem;
+	border-top: 2px solid #99E2D0;
+}
+
+
+/* ===== R FOOTER ===== */
+
+
+footer
+{
+	width: 100%;
+	margin-top: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+}
+
+footer i
+{
+	display: flex;
+	flex-direction: initial;
+	text-align: center;
+}
+
+footer ul
+{
+	width: 80%;
+	margin: auto;
+	margin-bottom: 3rem;
+	display: flex;
+	flex-direction: initial;
+	text-align: center;
+	justify-content: space-between;
+}
+
+footer li
+{
+	font-size: 1rem;
+	width: 20rem;
+	justify-content: center;
+}
+
+footer h5
+{
+	width: 10rem;
+	font-size: 2rem;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
