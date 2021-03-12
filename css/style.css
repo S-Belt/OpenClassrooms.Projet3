@@ -152,7 +152,6 @@ a :visited
 
 #index i
 {
-	padding-right: -3rem;
 	font-size: 1.2rem;
 	color: black;
 }
@@ -439,7 +438,6 @@ section p
 	height: 0;
 	position: absolute;
 	left: 0;
-	background-clip: text;
 	color: transparent;
 	transition: all 1s linear 0s;
 	-webkit-background-clip: text;
@@ -597,7 +595,7 @@ span.button:hover
 
 .ajouter
 {
-	width: 30%;
+	width: 0%;
 	height: 100%;
 	display: flex;
 	margin-right: 0;
@@ -616,6 +614,7 @@ span.button:hover
 {
 	transition: transform 500ms ease-in-out;
 	transform: translateX(0%);
+	width: 30%;
 }
 
 .check
